@@ -1,6 +1,8 @@
 cm4all-lukko (0.66) unstable; urgency=low
 
   * fix use-after-free crash bug
+  * fix assertion failure on channel with zero initial window size
+  * reject channel window adjustments which overflow the send window
 
  --   
 
